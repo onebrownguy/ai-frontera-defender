@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sales | AI Capital Defender Enterprise Solutions</title>
+    <meta name="description" content="Contact our enterprise sales team for custom AI security solutions. Protect your organization from AI threats with enterprise-grade security.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-dark: #0A1628;
+            --primary-blue: #1B4DFF;
+            --ai-purple: #6B46C1;
+            --success-green: #10B981;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --bg-light: #FAFBFC;
+            --bg-white: #FFFFFF;
+            --border-light: #E2E8F0;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text-primary);
+            line-height: 1.6;
+            background: linear-gradient(180deg, var(--bg-white) 0%, var(--bg-light) 100%);
+            min-height: 100vh;
+        }
+        
+        /* Navigation */
+        .nav-wrapper {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-light);
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            text-decoration: none;
+        }
+        
+        /* Contact Container */
+        .contact-container {
+            max-width: 1200px;
+            margin: 120px auto 60px;
+            padding: 0 2rem;
+        }
+        
+        .contact-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .form-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(107, 70, 193, 0.1);
+            color: var(--ai-purple);
+            padding: 0.375rem 1rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        .badge-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--ai-purple);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            line-height: 1.2;
+            color: var(--primary-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .contact-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        /* Contact Grid */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 4rem;
+        }
+        
+        /* Contact Form */
+        .contact-form-wrapper {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            color: var(--primary-dark);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--primary-dark);
+        }
+        
+        .required {
+            color: var(--primary-blue);
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 0.875rem;
+            border: 2px solid var(--border-light);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(27, 77, 255, 0.1);
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        
+        .btn-submit {
+            width: 100%;
+            padding: 1rem;
+            background: var(--primary-blue);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-top: 1rem;
+        }
+        
+        .btn-submit:hover {
+            background: #1640d6;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(27, 77, 255, 0.3);
+        }
+        
+        /* Contact Info */
+        .contact-info {
+            padding-top: 2rem;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            margin-bottom: 1.5rem;
+        }
+        
+        .info-card-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--primary-dark);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .info-card-icon {
+            width: 32px;
+            height: 32px;
+            background: rgba(107, 70, 193, 0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--ai-purple);
+        }
+        
+        .info-card-content {
+            color: var(--text-secondary);
+            margin-left: 2.5rem;
+        }
+        
+        .info-card-content a {
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+        
+        .info-card-content a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Enterprise Benefits */
+        .enterprise-benefits {
+            background: rgba(107, 70, 193, 0.05);
+            padding: 2rem;
+            border-radius: 16px;
+            margin-top: 1.5rem;
+        }
+        
+        .benefits-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--primary-dark);
+        }
+        
+        .benefit-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+        
+        .benefit-check {
+            color: var(--success-green);
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        /* Response Time */
+        .response-time {
+            background: linear-gradient(135deg, var(--primary-blue), var(--ai-purple));
+            color: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        
+        .response-time-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .response-time-value {
+            font-size: 2rem;
+            font-weight: 900;
+        }
+        
+        @media (max-width: 968px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .contact-container {
+                padding: 0 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .contact-form-wrapper {
+                padding: 1.5rem;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-wrapper">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                AI Capital Defender
+            </a>
+            <a href="/" style="color: var(--text-secondary); text-decoration: none;">← Back to Home</a>
+        </div>
+    </nav>
+
+    <div class="contact-container">
+        <div class="contact-header">
+            <div class="form-badge">
+                <span class="badge-dot"></span>
+                Enterprise Sales
+            </div>
+            <h1>Let's Secure Your AI Infrastructure</h1>
+            <p class="contact-subtitle">Get enterprise-grade AI security with custom solutions tailored to your organization's needs</p>
+        </div>
+
+        <div class="contact-grid">
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <h2 class="form-title">Contact Our Sales Team</h2>
+                
+                <form class="contact-form" action="/api/contact" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name <span class="required">*</span></label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name <span class="required">*</span></label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Business Email <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Company <span class="required">*</span></label>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="jobTitle">Job Title</label>
+                        <input type="text" id="jobTitle" name="jobTitle">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="companySize">Company Size <span class="required">*</span></label>
+                        <select id="companySize" name="companySize" required>
+                            <option value="">Select size</option>
+                            <option value="201-1000">201-1,000 employees</option>
+                            <option value="1001-5000">1,001-5,000 employees</option>
+                            <option value="5001-10000">5,001-10,000 employees</option>
+                            <option value="10000+">10,000+ employees</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budget">Security Budget Range</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select budget</option>
+                            <option value="50-100k">$50K - $100K</option>
+                            <option value="100-250k">$100K - $250K</option>
+                            <option value="250-500k">$250K - $500K</option>
+                            <option value="500k+">$500K+</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">How can we help? <span class="required">*</span></label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Tell us about your AI security needs..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Send Message →</button>
+                </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-card-title">
+                        <div class="info-card-icon">📧</div>
+                        Email Us
+                    </div>
+                    <div class="info-card-content">
+                        <p>For general inquiries:</p>
+                        <a href="mailto:hello@aicapitaldefender.com">hello@aicapitaldefender.com</a>
+                        <br><br>
+                        <p>For enterprise sales:</p>
+                        <a href="mailto:enterprise@aicapitaldefender.com">enterprise@aicapitaldefender.com</a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-card-title">
+                        <div class="info-card-icon">📞</div>
+                        Call Us
+                    </div>
+                    <div class="info-card-content">
+                        <p>Sales Hotline:</p>
+                        <a href="tel:+18885554321">+1 (888) 555-4321</a>
+                        <br><br>
+                        <p>Monday - Friday: 9AM - 6PM EST</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-card-title">
+                        <div class="info-card-icon">🏢</div>
+                        Headquarters
+                    </div>
+                    <div class="info-card-content">
+                        <p>AI Capital Defender</p>
+                        <p>100 Technology Way<br>
+                        San Francisco, CA 94105<br>
+                        United States</p>
+                    </div>
+                </div>
+
+                <div class="enterprise-benefits">
+                    <h3 class="benefits-title">Enterprise Benefits</h3>
+                    <div class="benefit-item">
+                        <span class="benefit-check">✓</span>
+                        <span>Dedicated account manager</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-check">✓</span>
+                        <span>Custom implementation plan</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-check">✓</span>
+                        <span>24/7 priority support</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-check">✓</span>
+                        <span>SLA guarantees</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-check">✓</span>
+                        <span>On-premise deployment options</span>
+                    </div>
+                </div>
+
+                <div class="response-time">
+                    <div class="response-time-title">Average Response Time</div>
+                    <div class="response-time-value">< 2 Hours</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Form submission
+        document.querySelector('.contact-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // Collect form data
+            const formData = {
+                formType: 'contact',
+                firstName: document.getElementById('firstName').value,
+                lastName: document.getElementById('lastName').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                company: document.getElementById('company').value,
+                jobTitle: document.getElementById('jobTitle').value,
+                companySize: document.getElementById('companySize').value,
+                budget: document.getElementById('budget').value,
+                message: document.getElementById('message').value
+            };
+
+            // Disable submit button
+            const submitBtn = e.target.querySelector('button[type="submit"]');
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+
+            try {
+                const response = await fetch('/api/submit-form', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const result = await response.json();
+                
+                // Always redirect to thank you page
+                window.location.href = '/thank-you?type=contact';
+            } catch (error) {
+                console.error('Error submitting form:', error);
+                window.location.href = '/thank-you?type=contact';
+            }
+        });
+    </script>
+</body>
+</html>

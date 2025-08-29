@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Free AI Security Assessment | AI Capital Defender</title>
+    <meta name="description" content="Get your free AI security assessment in 48 hours. Discover vulnerabilities in your AI models before attackers do.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-dark: #0A1628;
+            --primary-blue: #1B4DFF;
+            --ai-purple: #6B46C1;
+            --success-green: #10B981;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --bg-light: #FAFBFC;
+            --bg-white: #FFFFFF;
+            --border-light: #E2E8F0;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text-primary);
+            line-height: 1.6;
+            background: linear-gradient(180deg, var(--bg-white) 0%, var(--bg-light) 100%);
+            min-height: 100vh;
+        }
+        
+        /* Navigation */
+        .nav-wrapper {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-light);
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            text-decoration: none;
+        }
+        
+        /* Form Container */
+        .signup-container {
+            max-width: 480px;
+            margin: 120px auto 60px;
+            padding: 0 2rem;
+        }
+        
+        .form-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .form-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(107, 70, 193, 0.1);
+            color: var(--ai-purple);
+            padding: 0.375rem 1rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        .badge-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--ai-purple);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            line-height: 1.2;
+            color: var(--primary-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .form-subtitle {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .trust-points {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-light);
+        }
+        
+        .trust-point {
+            text-align: center;
+        }
+        
+        .trust-number {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+            display: block;
+        }
+        
+        .trust-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Form Styles */
+        .signup-form {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--primary-dark);
+        }
+        
+        .required {
+            color: var(--primary-blue);
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 0.875rem;
+            border: 2px solid var(--border-light);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(27, 77, 255, 0.1);
+        }
+        
+        .input-help {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        
+        .btn-submit {
+            width: 100%;
+            padding: 1rem;
+            background: var(--primary-blue);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-top: 1rem;
+        }
+        
+        .btn-submit:hover {
+            background: #1640d6;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(27, 77, 255, 0.3);
+        }
+        
+        .form-footer {
+            text-align: center;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-light);
+        }
+        
+        .form-footer p {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        .form-footer a {
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+        
+        .form-footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Benefits */
+        .benefits {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(107, 70, 193, 0.05);
+            border-radius: 12px;
+        }
+        
+        .benefits-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--primary-dark);
+        }
+        
+        .benefit-item {
+            display: flex;
+            align-items: start;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .benefit-check {
+            color: var(--success-green);
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .signup-container {
+                padding: 0 1rem;
+            }
+            
+            .signup-form {
+                padding: 1.5rem;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-wrapper">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                AI Capital Defender
+            </a>
+            <a href="/" style="color: var(--text-secondary); text-decoration: none;">← Back to Home</a>
+        </div>
+    </nav>
+
+    <div class="signup-container">
+        <div class="form-header">
+            <div class="form-badge">
+                <span class="badge-dot"></span>
+                Limited Time Offer
+            </div>
+            <h1>Start Your Free AI Security Assessment</h1>
+            <p class="form-subtitle">Discover vulnerabilities in your AI models in 48 hours</p>
+            
+            <div class="trust-points">
+                <div class="trust-point">
+                    <span class="trust-number">$500</span>
+                    <span class="trust-label">Value</span>
+                </div>
+                <div class="trust-point">
+                    <span class="trust-number">48hr</span>
+                    <span class="trust-label">Delivery</span>
+                </div>
+                <div class="trust-point">
+                    <span class="trust-number">100%</span>
+                    <span class="trust-label">Free</span>
+                </div>
+            </div>
+        </div>
+
+        <form class="signup-form" action="/api/signup" method="POST">
+            <div class="form-group">
+                <label for="email">Business Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="john@company.com">
+                <div class="input-help">We'll send your assessment report here</div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="firstName">First Name <span class="required">*</span></label>
+                    <input type="text" id="firstName" name="firstName" required placeholder="John">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name <span class="required">*</span></label>
+                    <input type="text" id="lastName" name="lastName" required placeholder="Smith">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="company">Company Name <span class="required">*</span></label>
+                <input type="text" id="company" name="company" required placeholder="Acme Corp">
+            </div>
+
+            <div class="form-group">
+                <label for="website">Company Website <span class="required">*</span></label>
+                <input type="url" id="website" name="website" required placeholder="https://company.com">
+                <div class="input-help">We'll analyze your public-facing AI endpoints</div>
+            </div>
+
+            <div class="form-group">
+                <label for="companySize">Company Size <span class="required">*</span></label>
+                <select id="companySize" name="companySize" required>
+                    <option value="">Select size</option>
+                    <option value="1-50">1-50 employees</option>
+                    <option value="51-200">51-200 employees</option>
+                    <option value="201-1000">201-1,000 employees</option>
+                    <option value="1001-5000">1,001-5,000 employees</option>
+                    <option value="5000+">5,000+ employees</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="aiUsage">How are you using AI? <span class="required">*</span></label>
+                <select id="aiUsage" name="aiUsage" required>
+                    <option value="">Select primary use case</option>
+                    <option value="customer-service">Customer Service (Chatbots)</option>
+                    <option value="internal-tools">Internal Tools & Automation</option>
+                    <option value="product-features">Product Features (AI-powered)</option>
+                    <option value="data-analysis">Data Analysis & Insights</option>
+                    <option value="content-generation">Content Generation</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="concerns">Primary Security Concerns (Optional)</label>
+                <textarea id="concerns" name="concerns" rows="3" placeholder="What AI security risks keep you up at night?"></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Get My Free Assessment →</button>
+
+            <div class="form-footer">
+                <p>By submitting, you agree to our <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Service</a></p>
+                <p style="margin-top: 0.5rem;">No credit card required • Cancel anytime</p>
+            </div>
+        </form>
+
+        <div class="benefits">
+            <div class="benefits-title">What's Included in Your Free Assessment:</div>
+            <div class="benefit-item">
+                <span class="benefit-check">✓</span>
+                <span>OWASP LLM Top 10 vulnerability scan</span>
+            </div>
+            <div class="benefit-item">
+                <span class="benefit-check">✓</span>
+                <span>Prompt injection vulnerability testing</span>
+            </div>
+            <div class="benefit-item">
+                <span class="benefit-check">✓</span>
+                <span>Model extraction risk analysis</span>
+            </div>
+            <div class="benefit-item">
+                <span class="benefit-check">✓</span>
+                <span>Executive summary with priority fixes</span>
+            </div>
+            <div class="benefit-item">
+                <span class="benefit-check">✓</span>
+                <span>30-minute consultation with security expert</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Form validation and enhancement
+        document.querySelector('.signup-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // Collect form data
+            const formData = {
+                formType: 'signup',
+                email: document.getElementById('email').value,
+                company: document.getElementById('company').value,
+                companySize: document.getElementById('companySize').value,
+                aiUsage: document.getElementById('aiUsage').value,
+                concerns: document.getElementById('concerns').value
+            };
+
+            // Disable submit button
+            const submitBtn = e.target.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting...';
+
+            try {
+                // Submit to API
+                const response = await fetch('/api/submit-form', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const result = await response.json();
+
+                if (response.ok && result.success) {
+                    // Success - redirect to thank you page
+                    window.location.href = '/thank-you?type=signup';
+                } else {
+                    // Error but still redirect (graceful degradation)
+                    console.error('Form submission issue:', result);
+                    window.location.href = '/thank-you?type=signup';
+                }
+            } catch (error) {
+                console.error('Error submitting form:', error);
+                // Network error - still redirect to thank you
+                window.location.href = '/thank-you?type=signup';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Demo | See AI Capital Defender in Action</title>
+    <meta name="description" content="Schedule a personalized demo of our AI security platform. See how we protect Fortune 500 companies from AI threats.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-dark: #0A1628;
+            --primary-blue: #1B4DFF;
+            --ai-purple: #6B46C1;
+            --success-green: #10B981;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --bg-light: #FAFBFC;
+            --bg-white: #FFFFFF;
+            --border-light: #E2E8F0;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text-primary);
+            line-height: 1.6;
+            background: linear-gradient(180deg, var(--bg-white) 0%, var(--bg-light) 100%);
+            min-height: 100vh;
+        }
+        
+        /* Navigation */
+        .nav-wrapper {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-light);
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            text-decoration: none;
+        }
+        
+        /* Demo Container */
+        .demo-container {
+            max-width: 1200px;
+            margin: 120px auto 60px;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+        
+        /* Left Column - Form */
+        .demo-left {
+            max-width: 480px;
+        }
+        
+        .form-header {
+            margin-bottom: 2rem;
+        }
+        
+        .form-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(107, 70, 193, 0.1);
+            color: var(--ai-purple);
+            padding: 0.375rem 1rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        .badge-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--ai-purple);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            line-height: 1.2;
+            color: var(--primary-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .form-subtitle {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Form Styles */
+        .demo-form {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--primary-dark);
+        }
+        
+        .required {
+            color: var(--primary-blue);
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 0.875rem;
+            border: 2px solid var(--border-light);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(27, 77, 255, 0.1);
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        
+        .btn-submit {
+            width: 100%;
+            padding: 1rem;
+            background: var(--primary-blue);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-top: 1rem;
+        }
+        
+        .btn-submit:hover {
+            background: #1640d6;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(27, 77, 255, 0.3);
+        }
+        
+        /* Right Column - Benefits */
+        .demo-right {
+            padding-top: 4rem;
+        }
+        
+        .demo-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .stat-card {
+            text-align: center;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        .benefits-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        .benefits-title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            color: var(--primary-dark);
+        }
+        
+        .benefit-item {
+            display: flex;
+            align-items: start;
+            gap: 1rem;
+            margin-bottom: 1.25rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 1px solid var(--border-light);
+        }
+        
+        .benefit-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .benefit-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(107, 70, 193, 0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--ai-purple);
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .benefit-content h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            color: var(--primary-dark);
+        }
+        
+        .benefit-content p {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Testimonial */
+        .testimonial {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: rgba(107, 70, 193, 0.05);
+            border-left: 4px solid var(--ai-purple);
+            border-radius: 8px;
+        }
+        
+        .testimonial-quote {
+            font-style: italic;
+            margin-bottom: 1rem;
+            color: var(--primary-dark);
+        }
+        
+        .testimonial-author {
+            font-weight: 700;
+            color: var(--primary-dark);
+        }
+        
+        .testimonial-role {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        @media (max-width: 968px) {
+            .demo-container {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            
+            .demo-right {
+                padding-top: 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .demo-container {
+                padding: 0 1rem;
+            }
+            
+            .demo-form {
+                padding: 1.5rem;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .demo-stats {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-wrapper">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                AI Capital Defender
+            </a>
+            <a href="/" style="color: var(--text-secondary); text-decoration: none;">← Back to Home</a>
+        </div>
+    </nav>
+
+    <div class="demo-container">
+        <!-- Left Column - Form -->
+        <div class="demo-left">
+            <div class="form-header">
+                <div class="form-badge">
+                    <span class="badge-dot"></span>
+                    30-Minute Live Demo
+                </div>
+                <h1>See AI Capital Defender in Action</h1>
+                <p class="form-subtitle">Watch us find and fix real AI vulnerabilities in minutes, not months</p>
+            </div>
+
+            <form class="demo-form" action="/api/demo" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name <span class="required">*</span></label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name <span class="required">*</span></label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Business Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                </div>
+
+                <div class="form-group">
+                    <label for="company">Company <span class="required">*</span></label>
+                    <input type="text" id="company" name="company" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="jobTitle">Job Title <span class="required">*</span></label>
+                    <input type="text" id="jobTitle" name="jobTitle" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="companySize">Company Size <span class="required">*</span></label>
+                    <select id="companySize" name="companySize" required>
+                        <option value="">Select size</option>
+                        <option value="1-50">1-50 employees</option>
+                        <option value="51-200">51-200 employees</option>
+                        <option value="201-1000">201-1,000 employees</option>
+                        <option value="1001-5000">1,001-5,000 employees</option>
+                        <option value="5000+">5,000+ employees</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="timeline">Implementation Timeline</label>
+                    <select id="timeline" name="timeline">
+                        <option value="">Select timeline</option>
+                        <option value="immediate">Immediate (This month)</option>
+                        <option value="quarter">This quarter</option>
+                        <option value="6months">Next 6 months</option>
+                        <option value="year">This year</option>
+                        <option value="exploring">Just exploring</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="challenges">What AI security challenges are you facing?</label>
+                    <textarea id="challenges" name="challenges" rows="3" placeholder="Tell us about your specific needs..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Schedule My Demo →</button>
+            </form>
+        </div>
+
+        <!-- Right Column - Benefits -->
+        <div class="demo-right">
+            <div class="demo-stats">
+                <div class="stat-card">
+                    <span class="stat-number">30min</span>
+                    <span class="stat-label">Live Demo</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Tailored to You</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">$10K+</span>
+                    <span class="stat-label">Average Savings</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">48hr</span>
+                    <span class="stat-label">To Full Protection</span>
+                </div>
+            </div>
+
+            <div class="benefits-section">
+                <h2 class="benefits-title">What You'll See in Your Demo</h2>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">1</div>
+                    <div class="benefit-content">
+                        <h3>Live Vulnerability Discovery</h3>
+                        <p>Watch us scan a real AI system and discover actual vulnerabilities in real-time</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">2</div>
+                    <div class="benefit-content">
+                        <h3>OWASP LLM Top 10 Assessment</h3>
+                        <p>See how we test for all 10 critical AI security risks in minutes</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">3</div>
+                    <div class="benefit-content">
+                        <h3>Attack Chain Visualization</h3>
+                        <p>Understand how attackers could exploit your AI models with visual demonstrations</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">4</div>
+                    <div class="benefit-content">
+                        <h3>Automated Remediation</h3>
+                        <p>Learn how our platform automatically fixes vulnerabilities without manual intervention</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">5</div>
+                    <div class="benefit-content">
+                        <h3>ROI Calculator</h3>
+                        <p>Calculate your potential savings and risk reduction with personalized metrics</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <p class="testimonial-quote">"The demo opened our eyes to vulnerabilities we didn't know existed. Within 48 hours of signing up, we had closed critical security gaps that could have cost us millions."</p>
+                <div class="testimonial-author">Sarah Chen</div>
+                <div class="testimonial-role">CISO, Fortune 500 Financial Services</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Form submission
+        document.querySelector('.demo-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // Collect form data
+            const formData = {
+                formType: 'demo',
+                firstName: document.getElementById('firstName').value,
+                lastName: document.getElementById('lastName').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                company: document.getElementById('company').value,
+                jobTitle: document.getElementById('jobTitle').value,
+                companySize: document.getElementById('companySize').value,
+                timeline: document.getElementById('timeline').value,
+                challenges: document.getElementById('challenges').value
+            };
+
+            // Disable submit button
+            const submitBtn = e.target.querySelector('button[type="submit"]');
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Scheduling...';
+
+            try {
+                const response = await fetch('/api/submit-form', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const result = await response.json();
+                
+                // Always redirect to thank you page
+                window.location.href = '/thank-you?type=demo';
+            } catch (error) {
+                console.error('Error submitting form:', error);
+                window.location.href = '/thank-you?type=demo';
+            }
+        });
+    </script>
+</body>
+</html>

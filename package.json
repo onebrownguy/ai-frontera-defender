@@ -1,0 +1,56 @@
+{
+  "name": "ai-pentest-platform-marketing",
+  "version": "1.0.0",
+  "description": "AI PenTest Platform - World's First AI-Native Penetration Testing Marketing Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "dev:vanilla": "npm run dev",
+    "dev:anime": "ANIMATION_TYPE=anime npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "build:vanilla": "echo 'Vanilla build complete'",
+    "build:anime": "echo 'Anime.js build complete'",
+    "start": "npx serve .",
+    "deploy": "vercel --prod",
+    "deploy:vanilla": "git checkout master && vercel --prod",
+    "deploy:anime": "git checkout anime-animations && vercel --prod",
+    "test:performance": "node scripts/performance-test.js",
+    "switch:anime": "git checkout anime-animations",
+    "switch:vanilla": "git checkout master",
+    "compare": "node scripts/compare-branches.js"
+  },
+  "keywords": [
+    "penetration-testing",
+    "ai-security",
+    "owasp-llm",
+    "browser-automation",
+    "cybersecurity",
+    "security-assessment"
+  ],
+  "author": "AI PenTest Platform",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "vercel": "^32.0.0"
+  },
+  "optionalDependencies": {
+    "animejs": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/ai-pentest-platform-marketing.git"
+  },
+  "vercelConfig": {
+    "vanilla": {
+      "buildCommand": "npm run build:vanilla",
+      "outputDirectory": "."
+    },
+    "anime": {
+      "buildCommand": "npm run build:anime",
+      "outputDirectory": "."
+    }
+  }
+}

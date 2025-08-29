@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | AI Capital Defender</title>
+    <meta name="description" content="Thank you for your interest in AI Capital Defender. We'll be in touch soon.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-dark: #0A1628;
+            --primary-blue: #1B4DFF;
+            --ai-purple: #6B46C1;
+            --success-green: #10B981;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --bg-light: #FAFBFC;
+            --bg-white: #FFFFFF;
+            --border-light: #E2E8F0;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text-primary);
+            line-height: 1.6;
+            background: linear-gradient(180deg, var(--bg-white) 0%, var(--bg-light) 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Navigation */
+        .nav-wrapper {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-light);
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            text-decoration: none;
+        }
+        
+        /* Thank You Container */
+        .thank-you-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 120px 2rem 60px;
+        }
+        
+        .thank-you-content {
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        .success-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--success-green), #059669);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+            animation: scaleIn 0.5s ease;
+        }
+        
+        @keyframes scaleIn {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        
+        .checkmark {
+            color: white;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--primary-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .thank-you-message {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+        
+        /* Next Steps */
+        .next-steps {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .steps-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--primary-dark);
+        }
+        
+        .step-item {
+            display: flex;
+            align-items: start;
+            gap: 1rem;
+            margin-bottom: 1.25rem;
+            text-align: left;
+        }
+        
+        .step-number {
+            width: 32px;
+            height: 32px;
+            background: var(--bg-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--primary-blue);
+            flex-shrink: 0;
+        }
+        
+        .step-content h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            color: var(--primary-dark);
+        }
+        
+        .step-content p {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Resources */
+        .resources {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .resource-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: all 0.2s;
+            border: 2px solid var(--border-light);
+        }
+        
+        .resource-card:hover {
+            border-color: var(--primary-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
+        
+        .resource-icon {
+            font-size: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .resource-title {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .resource-desc {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        /* CTA Buttons */
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .btn-primary, .btn-secondary {
+            padding: 0.875rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary {
+            background: var(--primary-blue);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #1640d6;
+            transform: translateY(-1px);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: var(--primary-dark);
+            border: 2px solid var(--border-light);
+        }
+        
+        .btn-secondary:hover {
+            border-color: var(--primary-blue);
+        }
+        
+        /* Contact Info */
+        .contact-info {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-light);
+            text-align: center;
+        }
+        
+        .contact-info p {
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-info a {
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .resources { grid-template-columns: 1fr; }
+            .cta-buttons { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-wrapper">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                AI Capital Defender
+            </a>
+            <a href="/" style="color: var(--text-secondary); text-decoration: none;">← Back to Home</a>
+        </div>
+    </nav>
+
+    <div class="thank-you-container">
+        <div class="thank-you-content">
+            <div class="success-icon">
+                <span class="checkmark">✓</span>
+            </div>
+            
+            <h1 id="thankYouTitle">Thank You!</h1>
+            <p class="thank-you-message" id="thankYouMessage">
+                Your request has been received. Our team will review your information and get back to you within 2 business hours.
+            </p>
+
+            <div class="next-steps">
+                <h2 class="steps-title">What Happens Next?</h2>
+                
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Confirmation Email</h3>
+                        <p>You'll receive a confirmation email within the next few minutes with your request details.</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Security Analysis</h3>
+                        <p>Our AI security experts will begin analyzing your requirements and preparing recommendations.</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Personalized Response</h3>
+                        <p>Within 48 hours, you'll receive a detailed assessment report or demo scheduling confirmation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resources">
+                <a href="/features" class="resource-card">
+                    <div class="resource-icon">🚀</div>
+                    <div class="resource-title">Platform Features</div>
+                    <div class="resource-desc">Explore our capabilities</div>
+                </a>
+                
+                <a href="https://owasp.org/www-project-top-10-for-large-language-model-applications/" target="_blank" class="resource-card">
+                    <div class="resource-icon">📚</div>
+                    <div class="resource-title">OWASP LLM Top 10</div>
+                    <div class="resource-desc">Learn about AI threats</div>
+                </a>
+                
+                <a href="#" class="resource-card">
+                    <div class="resource-icon">📊</div>
+                    <div class="resource-title">ROI Calculator</div>
+                    <div class="resource-desc">Calculate your savings</div>
+                </a>
+            </div>
+
+            <div class="cta-buttons">
+                <a href="/" class="btn-primary">Return to Homepage</a>
+                <a href="/features" class="btn-secondary">Explore Features</a>
+            </div>
+
+            <div class="contact-info">
+                <p>Have questions? Need immediate assistance?</p>
+                <p>Call us at <a href="tel:+18885554321">+1 (888) 555-4321</a> or email <a href="mailto:hello@aicapitaldefender.com">hello@aicapitaldefender.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Customize message based on form type
+        const urlParams = new URLSearchParams(window.location.search);
+        const formType = urlParams.get('type');
+        
+        const messages = {
+            demo: {
+                title: 'Demo Scheduled!',
+                message: 'Thank you for scheduling a demo. Our sales team will contact you within 24 hours to confirm your preferred time slot.'
+            },
+            contact: {
+                title: 'Message Sent!',
+                message: 'Thank you for contacting us. Our enterprise sales team will respond to your inquiry within 2 business hours.'
+            },
+            signup: {
+                title: 'Assessment Started!',
+                message: 'Thank you for signing up. Your free AI security assessment has begun. You\'ll receive your report within 48 hours.'
+            }
+        };
+        
+        if (formType && messages[formType]) {
+            document.getElementById('thankYouTitle').textContent = messages[formType].title;
+            document.getElementById('thankYouMessage').textContent = messages[formType].message;
+        }
+    </script>
+</body>
+</html>

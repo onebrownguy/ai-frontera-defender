@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Features | AI Capital Defender - Complete AI Security Suite</title>
+    <meta name="description" content="Explore our comprehensive AI security features including OWASP LLM Top 10 testing, browser automation, multi-model support, and enterprise-grade protection.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-dark: #0A1628;
+            --primary-blue: #1B4DFF;
+            --ai-purple: #6B46C1;
+            --success-green: #10B981;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --bg-light: #FAFBFC;
+            --bg-white: #FFFFFF;
+            --border-light: #E2E8F0;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+        
+        /* Navigation */
+        .nav-wrapper {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-light);
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-dark);
+        }
+        
+        .btn-primary {
+            padding: 0.5rem 1.5rem;
+            background: var(--primary-blue);
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary:hover {
+            background: #1640d6;
+            transform: translateY(-1px);
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 140px 0 80px;
+            background: linear-gradient(180deg, var(--bg-white) 0%, var(--bg-light) 100%);
+        }
+        
+        .hero-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            text-align: center;
+        }
+        
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(107, 70, 193, 0.1);
+            color: var(--ai-purple);
+            padding: 0.375rem 1rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            line-height: 1.1;
+            color: var(--primary-dark);
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 800px;
+            margin: 0 auto 3rem;
+        }
+        
+        /* Feature Categories */
+        .feature-categories {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .categories-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .category-nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 4rem;
+            flex-wrap: wrap;
+        }
+        
+        .category-btn {
+            padding: 0.75rem 1.5rem;
+            background: white;
+            border: 2px solid var(--border-light);
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .category-btn.active {
+            background: var(--primary-blue);
+            color: white;
+            border-color: var(--primary-blue);
+        }
+        
+        .category-btn:hover {
+            border-color: var(--primary-blue);
+        }
+        
+        /* Feature Grid */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            border: 2px solid var(--border-light);
+            transition: all 0.3s;
+        }
+        
+        .feature-card:hover {
+            border-color: var(--primary-blue);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--primary-blue), var(--ai-purple));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .feature-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--primary-dark);
+        }
+        
+        .feature-description {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+        
+        .feature-benefits {
+            list-style: none;
+        }
+        
+        .feature-benefits li {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        .check {
+            color: var(--success-green);
+            font-weight: bold;
+        }
+        
+        /* Technical Specs */
+        .tech-specs {
+            padding: 80px 0;
+            background: var(--bg-light);
+        }
+        
+        .specs-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .specs-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .specs-title {
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            color: var(--primary-dark);
+        }
+        
+        .specs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .spec-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .spec-value {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .spec-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--primary-dark), var(--ai-purple));
+            color: white;
+            text-align: center;
+        }
+        
+        .cta-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .cta-title {
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        
+        .btn-cta {
+            padding: 1rem 2rem;
+            background: white;
+            color: var(--primary-dark);
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.2s;
+        }
+        
+        .btn-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-cta-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-cta-secondary:hover {
+            background: white;
+            color: var(--primary-dark);
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .feature-grid { grid-template-columns: 1fr; }
+            .specs-grid { grid-template-columns: repeat(2, 1fr); }
+            .cta-buttons { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-wrapper">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                AI Capital Defender
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="#features">Features</a>
+                <a href="#specs">Specs</a>
+                <a href="/signup" class="btn-primary">Start Free</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-badge">
+                <span>🚀</span> Platform Features
+            </div>
+            <h1>Enterprise AI Security, Simplified</h1>
+            <p class="hero-subtitle">
+                Comprehensive protection against OWASP LLM Top 10 threats with browser automation, 
+                multi-model support, and real-time vulnerability detection
+            </p>
+        </div>
+    </section>
+
+    <!-- Feature Categories -->
+    <section class="feature-categories" id="features">
+        <div class="categories-container">
+            <div class="category-nav">
+                <button class="category-btn active">All Features</button>
+                <button class="category-btn">Vulnerability Detection</button>
+                <button class="category-btn">AI Analysis</button>
+                <button class="category-btn">Automation</button>
+                <button class="category-btn">Compliance</button>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title">OWASP LLM Top 10 Testing</h3>
+                    <p class="feature-description">
+                        Complete coverage of all 10 critical AI security vulnerabilities with automated testing and remediation.
+                    </p>
+                    <ul class="feature-benefits">
+                        <li><span class="check">✓</span> Prompt injection detection</li>
+                        <li><span class="check">✓</span> Model theft prevention</li>
+                        <li><span class="check">✓</span> Data poisoning analysis</li>
+                        <li><span class="check">✓</span> Excessive agency control</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3 class="feature-title">Browser Automation Testing</h3>
+                    <p class="feature-description">
+                        Dynamic security testing with real browser interactions to find vulnerabilities in AI-powered web applications.
+                    </p>
+                    <ul class="feature-benefits">
+                        <li><span class="check">✓</span> Playwright integration</li>
+                        <li><span class="check">✓</span> Visual evidence capture</li>
+                        <li><span class="check">✓</span> Form manipulation testing</li>
+                        <li><span class="check">✓</span> Authentication flow analysis</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-title">Multi-Model Support</h3>
+                    <p class="feature-description">
+                        Test and secure all major AI models including GPT-4, Claude, Gemini, Llama, and custom models.
+                    </p>
+                    <ul class="feature-benefits">
+                        <li><span class="check">✓</span> OpenAI GPT models</li>
+                        <li><span class="check">✓</span> Anthropic Claude</li>
+                        <li><span class="check">✓</span> Google Gemini</li>
+                        <li><span class="check">✓</span> Local Llama models</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Real-Time Monitoring</h3>
+                    <p class="feature-description">
+                        Continuous monitoring of AI endpoints with instant alerts for suspicious activities and vulnerabilities.
+                    </p>
+                    <ul class="feature-benefits">
+                        <li><span class="check">✓</span> 24/7 endpoint monitoring</li>
+                        <li><span class="check">✓</span> Anomaly detection</li>
+                        <li><span class="check">✓</span> Instant alerts</li>
+                        <li><span class="check">✓</span> Attack prevention</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔗</div>
+                    <h3 class="feature-title">Attack Chain Discovery</h3>
+                    <p class="feature-description">
+                        Advanced graph analysis to discover complex attack paths and vulnerability chains in your AI systems.
+                    </p>
+                    <ul class="feature-benefits">
+                        <li><span class="check">✓</span> NetworkX integration</li>
+                        <li><span class="check">✓</span> Multi-hop attacks</li>
+                        <li><span class="check">✓</span> Risk scoring</li>
+                        <li><span class="check">✓</span> Visual attack maps</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Executive Dashboard</h3>
+                    <p class="feature-description">
+                        Real-time security metrics and compliance status with executive-friendly visualizations and reports.
+                    </p>
+                    <ul class="feature-benefits">
+                        <li><span class="check">✓</span> Risk overview</li>
+                        <li><span class="check">✓</span> Compliance tracking</li>
+                        <li><span class="check">✓</span> ROI metrics</li>
+                        <li><span class="check">✓</span> PDF reports</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">Automated Remediation</h3>
+                    <p class="feature-description">
+                        Instant deployment of security controls and patches without manual intervention or downtime.
+                    </p>
+                    <ul class="feature-benefits">
+                        <li><span class="check">✓</span> One-click fixes</li>
+                        <li><span class="check">✓</span> Zero downtime</li>
+                        <li><span class="check">✓</span> Rollback support</li>
+                        <li><span class="check">✓</span> Validation testing</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📜</div>
+                    <h3 class="feature-title">Compliance Automation</h3>
+                    <p class="feature-description">
+                        Automated compliance reporting for EU AI Act, ISO 42001, SOC 2, and other regulatory frameworks.
+                    </p>
+                    <ul class="feature-benefits">
+                        <li><span class="check">✓</span> EU AI Act ready</li>
+                        <li><span class="check">✓</span> ISO 42001 mapping</li>
+                        <li><span class="check">✓</span> Audit preparation</li>
+                        <li><span class="check">✓</span> Gap analysis</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3 class="feature-title">API Security</h3>
+                    <p class="feature-description">
+                        Comprehensive API endpoint security testing for AI model serving and inference endpoints.
+                    </p>
+                    <ul class="feature-benefits">
+                        <li><span class="check">✓</span> Rate limit testing</li>
+                        <li><span class="check">✓</span> Authentication bypass</li>
+                        <li><span class="check">✓</span> Input validation</li>
+                        <li><span class="check">✓</span> Response manipulation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specs -->
+    <section class="tech-specs" id="specs">
+        <div class="specs-container">
+            <div class="specs-header">
+                <h2 class="specs-title">Platform Specifications</h2>
+                <p style="color: var(--text-secondary); font-size: 1.125rem;">
+                    Enterprise-grade performance and reliability
+                </p>
+            </div>
+
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <span class="spec-value">< 5min</span>
+                    <span class="spec-label">Initial Scan Time</span>
+                </div>
+                <div class="spec-card">
+                    <span class="spec-value">99.9%</span>
+                    <span class="spec-label">Detection Accuracy</span>
+                </div>
+                <div class="spec-card">
+                    <span class="spec-value">24/7</span>
+                    <span class="spec-label">Monitoring</span>
+                </div>
+                <div class="spec-card">
+                    <span class="spec-value">1000+</span>
+                    <span class="spec-label">Test Payloads</span>
+                </div>
+                <div class="spec-card">
+                    <span class="spec-value">15+</span>
+                    <span class="spec-label">AI Models Supported</span>
+                </div>
+                <div class="spec-card">
+                    <span class="spec-value">48hr</span>
+                    <span class="spec-label">Full Deployment</span>
+                </div>
+                <div class="spec-card">
+                    <span class="spec-value">10ms</span>
+                    <span class="spec-label">Alert Latency</span>
+                </div>
+                <div class="spec-card">
+                    <span class="spec-value">∞</span>
+                    <span class="spec-label">API Calls/Month</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-container">
+            <h2 class="cta-title">Ready to Secure Your AI?</h2>
+            <p class="cta-subtitle">
+                Join Fortune 500 companies protecting their AI infrastructure with our platform
+            </p>
+            <div class="cta-buttons">
+                <a href="/signup" class="btn-cta">Start Free Assessment</a>
+                <a href="/demo" class="btn-cta btn-cta-secondary">Schedule Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Category filter functionality
+        const categoryBtns = document.querySelectorAll('.category-btn');
+        categoryBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                categoryBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                // In production, this would filter the features
+            });
+        });
+    </script>
+</body>
+</html>
