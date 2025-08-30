@@ -12,7 +12,8 @@
       "Bash(gh repo create:*)",
       "Bash(vercel link:*)",
       "Bash(vercel:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "WebFetch(domain:ai-frontera-defender-jeedz91qu-abel-rincons-projects.vercel.app)"
     ],
     "deny": [],
     "ask": []
