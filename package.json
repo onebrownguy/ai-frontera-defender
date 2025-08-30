@@ -30,7 +30,9 @@
   "author": "AI PenTest Platform",
   "license": "ISC",
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.0"
+    "@playwright/test": "^1.55.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "playwright": "^1.55.0"
   },
   "devDependencies": {
     "serve": "^14.2.1",

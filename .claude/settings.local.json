@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:aicapitaldefender.com)",
+      "Bash(dir:*)",
+      "WebFetch(domain:ai-frontera-defender-plv613la8-abel-rincons-projects.vercel.app)",
+      "Bash(del test-spanish.js)",
+      "Bash(rm:*)",
+      "Bash(vercel ls:*)",
+      "Bash(vercel inspect:*)",
+      "Bash(gh auth:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

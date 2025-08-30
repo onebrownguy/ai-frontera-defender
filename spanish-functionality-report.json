@@ -1,0 +1,1220 @@
+{
+  "timestamp": "2025-08-30T21:59:03.206Z",
+  "url": "https://aifronteradefender.com",
+  "pageTitle": "AI Frontera Defender | Seguridad AI Sin Fronteras para Maquiladoras",
+  "languageSwitchers": [
+    {
+      "text": "AI\n                Frontera Defender\n            \n            \n                \n                    \n                        Plataforma\n                        Platform\n                    \n                    \n                        \n                            \n                            \n                                Security Dashboard\n                                Real-time vulnerability monitoring and threat intelligence\n                            \n                        \n                        \n                            \n                            \n                                AI Scanner Engine\n                                Advanced ML-powered vulnerability detection system\n                            \n                        \n                        \n                            \n                            \n                                Compliance Reports\n                                Automated SOC 2, ISO 27001, and HIPAA reporting\n                            \n                        \n                    \n                \n                \n                    \n                        Servicios\n                        Services\n                    \n                    \n                        \n                            \n                            \n                                Penetration Testing\n                                Continuous AI-powered security assessments 24/7\n                            \n                        \n                        \n                            \n                            \n                                Threat Monitoring\n                                Real-time threat detection and incident response\n                            \n                        \n                        \n                            \n                            \n                                Security Consulting\n                                Expert guidance for security architecture and compliance\n                            \n                        \n                    \n                \n                \n                    \n                        Soluciones\n                        Solutions\n                    \n                    \n                        \n                            \n                            \n                                Enterprise Security\n                                Comprehensive security for Fortune 500 companies\n                            \n                        \n                        \n                            \n                            \n                                Cloud Security\n                                AWS, Azure, and GCP security assessment and monitoring\n                            \n                        \n                        \n                            \n                            \n                                DevSecOps\n                                Security integration in CI/CD pipelines\n                            \n                        \n                    \n                \n                \n                    \n                        ¿Por Qué DFA?\n                        Why AFD\n                    \n                    \n                        \n                            \n                            \n                                100x Faster\n                                Complete assessments in hours instead of weeks\n                            \n                        \n                        \n                            \n                            \n                                Zero False Positives\n                                AI validates every finding before reporting\n                            \n                        \n                        \n                            \n                            \n                                Complete Coverage\n                                Test millions of attack vectors simultaneously\n                            \n                        \n                    \n                \n                \n                    \n                        Recursos\n                        Resources\n                    \n                    \n                        \n                            \n                            \n                                Documentation\n                                API references, guides, and best practices\n                            \n                        \n                        \n                            \n                            \n                                Security Blog\n                                Latest threat intelligence and security insights\n                            \n                        \n                        \n                            \n                            \n                                Webinars\n                                Live demos and security training sessions\n                            \n                        \n                    \n                \n                \n                    \n                        Precios\n                        Pricing\n                    \n                    \n                        \n                            \n                            \n                                Starter\n                                Perfect for small businesses and startups\n                            \n                        \n                        \n                            \n                            \n                                Growth\n                                For growing companies with multiple applications\n                            \n                        \n                        \n                            \n                            \n                                Enterprise\n                                Tailored solutions for Fortune 500 companies\n                            \n                        \n                    \n                \n            \n            \n                \n                \n                    ES\n                    EN\n                \n                \n                    Prueba Gratis\n                    Free Trial",
+      "tag": "div",
+      "visible": true,
+      "classes": "nav-container",
+      "id": ""
+    },
+    {
+      "text": "Servicios\n                        Services",
+      "tag": "a",
+      "visible": true,
+      "classes": "bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Services",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "Penetration Testing\n                                Continuous AI-powered security assessments 24/7\n                            \n                        \n                        \n                            \n                            \n                                Threat Monitoring\n                                Real-time threat detection and incident response\n                            \n                        \n                        \n                            \n                            \n                                Security Consulting\n                                Expert guidance for security architecture and compliance",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown",
+      "id": ""
+    },
+    {
+      "text": "Penetration Testing\n                                Continuous AI-powered security assessments 24/7",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Penetration Testing\n                                Continuous AI-powered security assessments 24/7",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "Penetration Testing",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-title",
+      "id": ""
+    },
+    {
+      "text": "Continuous AI-powered security assessments 24/7",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "Threat Monitoring\n                                Real-time threat detection and incident response",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Threat Monitoring\n                                Real-time threat detection and incident response",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "Real-time threat detection and incident response",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "Soluciones\n                        Solutions",
+      "tag": "a",
+      "visible": true,
+      "classes": "bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Soluciones",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Enterprise Security\n                                Comprehensive security for Fortune 500 companies\n                            \n                        \n                        \n                            \n                            \n                                Cloud Security\n                                AWS, Azure, and GCP security assessment and monitoring\n                            \n                        \n                        \n                            \n                            \n                                DevSecOps\n                                Security integration in CI/CD pipelines",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown",
+      "id": ""
+    },
+    {
+      "text": "Enterprise Security\n                                Comprehensive security for Fortune 500 companies",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Enterprise Security\n                                Comprehensive security for Fortune 500 companies",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "Comprehensive security for Fortune 500 companies",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "Cloud Security\n                                AWS, Azure, and GCP security assessment and monitoring",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Cloud Security\n                                AWS, Azure, and GCP security assessment and monitoring",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "AWS, Azure, and GCP security assessment and monitoring",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "DevSecOps\n                                Security integration in CI/CD pipelines",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "DevSecOps\n                                Security integration in CI/CD pipelines",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "Security integration in CI/CD pipelines",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "100x Faster\n                                Complete assessments in hours instead of weeks\n                            \n                        \n                        \n                            \n                            \n                                Zero False Positives\n                                AI validates every finding before reporting\n                            \n                        \n                        \n                            \n                            \n                                Complete Coverage\n                                Test millions of attack vectors simultaneously",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown",
+      "id": ""
+    },
+    {
+      "text": "100x Faster\n                                Complete assessments in hours instead of weeks",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "100x Faster\n                                Complete assessments in hours instead of weeks",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "Complete assessments in hours instead of weeks",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "Zero False Positives\n                                AI validates every finding before reporting",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Zero False Positives\n                                AI validates every finding before reporting",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "Zero False Positives",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-title",
+      "id": ""
+    },
+    {
+      "text": "AI validates every finding before reporting",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "Complete Coverage\n                                Test millions of attack vectors simultaneously",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Complete Coverage\n                                Test millions of attack vectors simultaneously",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "Test millions of attack vectors simultaneously",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "Recursos\n                        Resources",
+      "tag": "a",
+      "visible": true,
+      "classes": "bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Resources",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "Documentation\n                                API references, guides, and best practices\n                            \n                        \n                        \n                            \n                            \n                                Security Blog\n                                Latest threat intelligence and security insights\n                            \n                        \n                        \n                            \n                            \n                                Webinars\n                                Live demos and security training sessions",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown",
+      "id": ""
+    },
+    {
+      "text": "Documentation\n                                API references, guides, and best practices",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Documentation\n                                API references, guides, and best practices",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "API references, guides, and best practices",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "Security Blog\n                                Latest threat intelligence and security insights",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Security Blog\n                                Latest threat intelligence and security insights",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "Latest threat intelligence and security insights",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "Webinars\n                                Live demos and security training sessions",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Webinars\n                                Live demos and security training sessions",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "Live demos and security training sessions",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "Starter\n                                Perfect for small businesses and startups\n                            \n                        \n                        \n                            \n                            \n                                Growth\n                                For growing companies with multiple applications\n                            \n                        \n                        \n                            \n                            \n                                Enterprise\n                                Tailored solutions for Fortune 500 companies",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown",
+      "id": ""
+    },
+    {
+      "text": "Starter\n                                Perfect for small businesses and startups",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Starter\n                                Perfect for small businesses and startups",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "Perfect for small businesses and startups",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "Growth\n                                For growing companies with multiple applications",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Growth\n                                For growing companies with multiple applications",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "For growing companies with multiple applications",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "Enterprise\n                                Tailored solutions for Fortune 500 companies",
+      "tag": "a",
+      "visible": true,
+      "classes": "dropdown-item",
+      "id": ""
+    },
+    {
+      "text": "Enterprise\n                                Tailored solutions for Fortune 500 companies",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-content",
+      "id": ""
+    },
+    {
+      "text": "Tailored solutions for Fortune 500 companies",
+      "tag": "div",
+      "visible": true,
+      "classes": "dropdown-desc",
+      "id": ""
+    },
+    {
+      "text": "ES\n                    EN\n                \n                \n                    Prueba Gratis\n                    Free Trial",
+      "tag": "div",
+      "visible": true,
+      "classes": "nav-cta",
+      "id": ""
+    },
+    {
+      "text": "ES\n                    EN",
+      "tag": "div",
+      "visible": true,
+      "classes": "language-switcher",
+      "id": ""
+    },
+    {
+      "text": "ES",
+      "tag": "button",
+      "visible": true,
+      "classes": "lang-btn active",
+      "id": "btn-es"
+    },
+    {
+      "text": "EN",
+      "tag": "button",
+      "visible": true,
+      "classes": "lang-btn",
+      "id": "btn-en"
+    },
+    {
+      "text": "Primera Plataforma de Seguridad IA-Nativa para Maquiladoras\n                    First AI-Native Security Platform for Border Enterprises\n                \n                \n                \n                    Seguridad IA Sin Fronteraspara Maquiladoras\n                    AI-Powered Border SecurityPlatform\n                \n                \n                \n                    \n                        Protección cibernética avanzada para maquiladoras y empresas fronterizas México-EE.UU. Cumplimiento normativo binacional, soporte bilingüe 24/7 y experiencia regional especializada.\n                    \n                    \n                        Advanced cybersecurity protection for maquiladoras and Mexico-US border enterprises. Binational regulatory compliance, 24/7 bilingual support, and specialized regional expertise.\n                    \n                \n                \n                \n                    \n                        Evaluación Gratuita de Seguridad\n                        Free Security Assessment\n                    \n                \n                \n                \n                    \n                        ✔\n                        \n                            15+\n                            \n                                Clientes Empresariales\n                                Enterprise Clients\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            2,847\n                            \n                                Vulnerabilidades IA Detectadas\n                                AI Vulnerabilities Found\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            48hr\n                            \n                                Tiempo al Primer Reporte\n                                Time to First Report\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            99.9%\n                            \n                                Tasa de Detección de Amenazas\n                                Threat Detection Rate\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            $2.5M+\n                            \n                                Pipeline de Ingresos\n                                Revenue Pipeline\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            Series A\n                            \n                                Listo para Inversión\n                                Investment Ready",
+      "tag": "div",
+      "visible": true,
+      "classes": "hero-container",
+      "id": ""
+    },
+    {
+      "text": "Primera Plataforma de Seguridad IA-Nativa para Maquiladoras\n                    First AI-Native Security Platform for Border Enterprises\n                \n                \n                \n                    Seguridad IA Sin Fronteraspara Maquiladoras\n                    AI-Powered Border SecurityPlatform\n                \n                \n                \n                    \n                        Protección cibernética avanzada para maquiladoras y empresas fronterizas México-EE.UU. Cumplimiento normativo binacional, soporte bilingüe 24/7 y experiencia regional especializada.\n                    \n                    \n                        Advanced cybersecurity protection for maquiladoras and Mexico-US border enterprises. Binational regulatory compliance, 24/7 bilingual support, and specialized regional expertise.\n                    \n                \n                \n                \n                    \n                        Evaluación Gratuita de Seguridad\n                        Free Security Assessment\n                    \n                \n                \n                \n                    \n                        ✔\n                        \n                            15+\n                            \n                                Clientes Empresariales\n                                Enterprise Clients\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            2,847\n                            \n                                Vulnerabilidades IA Detectadas\n                                AI Vulnerabilities Found\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            48hr\n                            \n                                Tiempo al Primer Reporte\n                                Time to First Report\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            99.9%\n                            \n                                Tasa de Detección de Amenazas\n                                Threat Detection Rate\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            $2.5M+\n                            \n                                Pipeline de Ingresos\n                                Revenue Pipeline\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            Series A\n                            \n                                Listo para Inversión\n                                Investment Ready",
+      "tag": "div",
+      "visible": true,
+      "classes": "hero-content",
+      "id": ""
+    },
+    {
+      "text": "Primera Plataforma de Seguridad IA-Nativa para Maquiladoras\n                    First AI-Native Security Platform for Border Enterprises",
+      "tag": "div",
+      "visible": true,
+      "classes": "hero-badge bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "First AI-Native Security Platform for Border Enterprises",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "Protección cibernética avanzada para maquiladoras y empresas fronterizas México-EE.UU. Cumplimiento normativo binacional, soporte bilingüe 24/7 y experiencia regional especializada.",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Advanced cybersecurity protection for maquiladoras and Mexico-US border enterprises. Binational regulatory compliance, 24/7 bilingual support, and specialized regional expertise.",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "Evaluación Gratuita de Seguridad\n                        Free Security Assessment",
+      "tag": "div",
+      "visible": true,
+      "classes": "hero-cta",
+      "id": ""
+    },
+    {
+      "text": "Evaluación Gratuita de Seguridad\n                        Free Security Assessment",
+      "tag": "button",
+      "visible": true,
+      "classes": "btn-hero-primary bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Free Security Assessment",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "✔\n                        \n                            15+\n                            \n                                Clientes Empresariales\n                                Enterprise Clients\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            2,847\n                            \n                                Vulnerabilidades IA Detectadas\n                                AI Vulnerabilities Found\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            48hr\n                            \n                                Tiempo al Primer Reporte\n                                Time to First Report\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            99.9%\n                            \n                                Tasa de Detección de Amenazas\n                                Threat Detection Rate\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            $2.5M+\n                            \n                                Pipeline de Ingresos\n                                Revenue Pipeline\n                            \n                        \n                    \n                    \n                        ✔\n                        \n                            Series A\n                            \n                                Listo para Inversión\n                                Investment Ready",
+      "tag": "div",
+      "visible": true,
+      "classes": "trust-indicators",
+      "id": ""
+    },
+    {
+      "text": "✔\n                        \n                            15+\n                            \n                                Clientes Empresariales\n                                Enterprise Clients",
+      "tag": "div",
+      "visible": true,
+      "classes": "trust-item",
+      "id": ""
+    },
+    {
+      "text": "15+\n                            \n                                Clientes Empresariales\n                                Enterprise Clients",
+      "tag": "div",
+      "visible": true,
+      "classes": "trust-text",
+      "id": ""
+    },
+    {
+      "text": "Clientes Empresariales\n                                Enterprise Clients",
+      "tag": "span",
+      "visible": true,
+      "classes": "trust-label bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Clientes Empresariales",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "✔\n                        \n                            2,847\n                            \n                                Vulnerabilidades IA Detectadas\n                                AI Vulnerabilities Found",
+      "tag": "div",
+      "visible": true,
+      "classes": "trust-item",
+      "id": ""
+    },
+    {
+      "text": "2,847\n                            \n                                Vulnerabilidades IA Detectadas\n                                AI Vulnerabilities Found",
+      "tag": "div",
+      "visible": true,
+      "classes": "trust-text",
+      "id": ""
+    },
+    {
+      "text": "Vulnerabilidades IA Detectadas\n                                AI Vulnerabilities Found",
+      "tag": "span",
+      "visible": true,
+      "classes": "trust-label bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Vulnerabilidades IA Detectadas",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "AI Vulnerabilities Found",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "✔\n                        \n                            $2.5M+\n                            \n                                Pipeline de Ingresos\n                                Revenue Pipeline",
+      "tag": "div",
+      "visible": true,
+      "classes": "trust-item",
+      "id": ""
+    },
+    {
+      "text": "$2.5M+\n                            \n                                Pipeline de Ingresos\n                                Revenue Pipeline",
+      "tag": "div",
+      "visible": true,
+      "classes": "trust-text",
+      "id": ""
+    },
+    {
+      "text": "Pipeline de Ingresos\n                                Revenue Pipeline",
+      "tag": "span",
+      "visible": true,
+      "classes": "trust-label bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Pipeline de Ingresos",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "✔\n                        \n                            Series A\n                            \n                                Listo para Inversión\n                                Investment Ready",
+      "tag": "div",
+      "visible": true,
+      "classes": "trust-item",
+      "id": ""
+    },
+    {
+      "text": "Series A\n                            \n                                Listo para Inversión\n                                Investment Ready",
+      "tag": "div",
+      "visible": true,
+      "classes": "trust-text",
+      "id": ""
+    },
+    {
+      "text": "Series A",
+      "tag": "span",
+      "visible": true,
+      "classes": "trust-number",
+      "id": ""
+    },
+    {
+      "text": "Listo para Inversión\n                                Investment Ready",
+      "tag": "span",
+      "visible": true,
+      "classes": "trust-label bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Investment Ready",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "Inteligencia de Amenazas en Vivo\n                    Live Threat Intelligence\n                \n                \n                    El Panorama de Amenazas IA Está Evolucionando\n                    The AI Threat Landscape is Evolving\n                \n                \n                    Visibilidad en tiempo real de vectores de ataque IA emergentes y vulnerabilidades\n                    Real-time visibility into emerging AI attack vectors and vulnerabilities\n                \n            \n            \n            \n            \n                \n                    \n                        387\n                        \n                            Vulnerabilidades IA Este Mes\n                            AI Vulnerabilities This Month\n                        \n                    \n                    \n                        1,456\n                        \n                            Intentos de Inyección de Prompts\n                            Prompt Injection Attempts\n                        \n                    \n                    \n                        93\n                        \n                            Modelos en Riesgo\n                            Models at Risk\n                        \n                    \n                    \n                        $4.2M\n                        \n                            Costo Promedio de Violación\n                            Average Breach Cost\n                        \n                    \n                \n            \n            \n            \n            \n                \n                    💉\n                    \n                        Inyección de Prompts\n                        Prompt Injection\n                    \n                    \n                        Prompts maliciosos que manipulan el comportamiento de la IA y eluden controles de seguridad\n                        Malicious prompts that manipulate AI behavior and bypass security controls\n                    \n                \n                \n                    🎭\n                    \n                        Extracción de Modelos\n                        Model Extraction\n                    \n                    \n                        Robo de modelos IA propietarios mediante consultas sistemáticas\n                        Theft of proprietary AI models through systematic querying\n                    \n                \n                \n                    ☠️\n                    \n                        Envenenamiento de Datos\n                        Data Poisoning\n                    \n                    \n                        Contaminación de datos de entrenamiento para crear puertas traseras\n                        Contamination of training data to create backdoors\n                    \n                \n                \n                    🔓\n                    \n                        Jailbreaking\n                        Jailbreaking\n                    \n                    \n                        Eludir mecanismos de seguridad IA y guías éticas\n                        Bypassing AI safety mechanisms and ethical guidelines\n                    \n                \n                \n                    📊\n                    \n                        Divulgación de Información\n                        Information Disclosure\n                    \n                    \n                        Extracción de datos sensibles de entrenamiento de los modelos\n                        Extraction of sensitive training data from models\n                    \n                \n                \n                    🚫\n                    \n                        Denegación de Servicio\n                        Denial of Service\n                    \n                    \n                        Ataques de agotamiento de recursos dirigidos a infraestructura IA\n                        Resource exhaustion attacks targeting AI infrastructure",
+      "tag": "div",
+      "visible": true,
+      "classes": "threat-container",
+      "id": ""
+    },
+    {
+      "text": "Inteligencia de Amenazas en Vivo\n                    Live Threat Intelligence\n                \n                \n                    El Panorama de Amenazas IA Está Evolucionando\n                    The AI Threat Landscape is Evolving\n                \n                \n                    Visibilidad en tiempo real de vectores de ataque IA emergentes y vulnerabilidades\n                    Real-time visibility into emerging AI attack vectors and vulnerabilities",
+      "tag": "div",
+      "visible": true,
+      "classes": "threat-header",
+      "id": ""
+    },
+    {
+      "text": "El Panorama de Amenazas IA Está Evolucionando",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Visibilidad en tiempo real de vectores de ataque IA emergentes y vulnerabilidades",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Real-time visibility into emerging AI attack vectors and vulnerabilities",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "387\n                        \n                            Vulnerabilidades IA Este Mes\n                            AI Vulnerabilities This Month\n                        \n                    \n                    \n                        1,456\n                        \n                            Intentos de Inyección de Prompts\n                            Prompt Injection Attempts\n                        \n                    \n                    \n                        93\n                        \n                            Modelos en Riesgo\n                            Models at Risk\n                        \n                    \n                    \n                        $4.2M\n                        \n                            Costo Promedio de Violación\n                            Average Breach Cost",
+      "tag": "div",
+      "visible": true,
+      "classes": "threat-counter",
+      "id": ""
+    },
+    {
+      "text": "387\n                        \n                            Vulnerabilidades IA Este Mes\n                            AI Vulnerabilities This Month\n                        \n                    \n                    \n                        1,456\n                        \n                            Intentos de Inyección de Prompts\n                            Prompt Injection Attempts\n                        \n                    \n                    \n                        93\n                        \n                            Modelos en Riesgo\n                            Models at Risk\n                        \n                    \n                    \n                        $4.2M\n                        \n                            Costo Promedio de Violación\n                            Average Breach Cost",
+      "tag": "div",
+      "visible": true,
+      "classes": "counter-grid",
+      "id": ""
+    },
+    {
+      "text": "387\n                        \n                            Vulnerabilidades IA Este Mes\n                            AI Vulnerabilities This Month",
+      "tag": "div",
+      "visible": true,
+      "classes": "counter-item",
+      "id": ""
+    },
+    {
+      "text": "Vulnerabilidades IA Este Mes\n                            AI Vulnerabilities This Month",
+      "tag": "div",
+      "visible": true,
+      "classes": "counter-label bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Vulnerabilidades IA Este Mes",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "AI Vulnerabilities This Month",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "93\n                        \n                            Modelos en Riesgo\n                            Models at Risk",
+      "tag": "div",
+      "visible": true,
+      "classes": "counter-item",
+      "id": ""
+    },
+    {
+      "text": "Modelos en Riesgo\n                            Models at Risk",
+      "tag": "div",
+      "visible": true,
+      "classes": "counter-label bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Modelos en Riesgo",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "💉\n                    \n                        Inyección de Prompts\n                        Prompt Injection\n                    \n                    \n                        Prompts maliciosos que manipulan el comportamiento de la IA y eluden controles de seguridad\n                        Malicious prompts that manipulate AI behavior and bypass security controls\n                    \n                \n                \n                    🎭\n                    \n                        Extracción de Modelos\n                        Model Extraction\n                    \n                    \n                        Robo de modelos IA propietarios mediante consultas sistemáticas\n                        Theft of proprietary AI models through systematic querying\n                    \n                \n                \n                    ☠️\n                    \n                        Envenenamiento de Datos\n                        Data Poisoning\n                    \n                    \n                        Contaminación de datos de entrenamiento para crear puertas traseras\n                        Contamination of training data to create backdoors\n                    \n                \n                \n                    🔓\n                    \n                        Jailbreaking\n                        Jailbreaking\n                    \n                    \n                        Eludir mecanismos de seguridad IA y guías éticas\n                        Bypassing AI safety mechanisms and ethical guidelines\n                    \n                \n                \n                    📊\n                    \n                        Divulgación de Información\n                        Information Disclosure\n                    \n                    \n                        Extracción de datos sensibles de entrenamiento de los modelos\n                        Extraction of sensitive training data from models\n                    \n                \n                \n                    🚫\n                    \n                        Denegación de Servicio\n                        Denial of Service\n                    \n                    \n                        Ataques de agotamiento de recursos dirigidos a infraestructura IA\n                        Resource exhaustion attacks targeting AI infrastructure",
+      "tag": "div",
+      "visible": true,
+      "classes": "attack-grid",
+      "id": ""
+    },
+    {
+      "text": "💉\n                    \n                        Inyección de Prompts\n                        Prompt Injection\n                    \n                    \n                        Prompts maliciosos que manipulan el comportamiento de la IA y eluden controles de seguridad\n                        Malicious prompts that manipulate AI behavior and bypass security controls",
+      "tag": "div",
+      "visible": true,
+      "classes": "attack-card",
+      "id": ""
+    },
+    {
+      "text": "Prompts maliciosos que manipulan el comportamiento de la IA y eluden controles de seguridad\n                        Malicious prompts that manipulate AI behavior and bypass security controls",
+      "tag": "div",
+      "visible": true,
+      "classes": "attack-description bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Prompts maliciosos que manipulan el comportamiento de la IA y eluden controles de seguridad",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "🔓\n                    \n                        Jailbreaking\n                        Jailbreaking\n                    \n                    \n                        Eludir mecanismos de seguridad IA y guías éticas\n                        Bypassing AI safety mechanisms and ethical guidelines",
+      "tag": "div",
+      "visible": true,
+      "classes": "attack-card",
+      "id": ""
+    },
+    {
+      "text": "Eludir mecanismos de seguridad IA y guías éticas\n                        Bypassing AI safety mechanisms and ethical guidelines",
+      "tag": "div",
+      "visible": true,
+      "classes": "attack-description bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Bypassing AI safety mechanisms and ethical guidelines",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "📊\n                    \n                        Divulgación de Información\n                        Information Disclosure\n                    \n                    \n                        Extracción de datos sensibles de entrenamiento de los modelos\n                        Extraction of sensitive training data from models",
+      "tag": "div",
+      "visible": true,
+      "classes": "attack-card",
+      "id": ""
+    },
+    {
+      "text": "Extracción de datos sensibles de entrenamiento de los modelos\n                        Extraction of sensitive training data from models",
+      "tag": "div",
+      "visible": true,
+      "classes": "attack-description bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Extracción de datos sensibles de entrenamiento de los modelos",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "🚫\n                    \n                        Denegación de Servicio\n                        Denial of Service\n                    \n                    \n                        Ataques de agotamiento de recursos dirigidos a infraestructura IA\n                        Resource exhaustion attacks targeting AI infrastructure",
+      "tag": "div",
+      "visible": true,
+      "classes": "attack-card",
+      "id": ""
+    },
+    {
+      "text": "Ataques de agotamiento de recursos dirigidos a infraestructura IA\n                        Resource exhaustion attacks targeting AI infrastructure",
+      "tag": "div",
+      "visible": true,
+      "classes": "attack-description bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Ataques de agotamiento de recursos dirigidos a infraestructura IA",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Resource exhaustion attacks targeting AI infrastructure",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "La Solución\n                    The Solution\n                \n                \n                    Plataforma de Seguridad Ofensiva IA-Nativa\n                    AI-Native Offensive Security Platform\n                \n                \n                    Tres pilares de protección contra amenazas específicas de IA\n                    Three pillars of protection against AI-specific threats\n                \n            \n            \n            \n                \n                    🔍\n                    \n                        Descubrimiento Continuo\n                        Continuous Discovery\n                    \n                    \n                        Escaneo en tiempo real de todos los modelos IA, endpoints y pipelines de datos para vulnerabilidades\n                        Real-time scanning of all AI models, endpoints, and data pipelines for vulnerabilities\n                    \n                \n                \n                    🧠\n                    \n                        Análisis Potenciado por IA\n                        AI-Powered Analysis\n                    \n                    \n                        Modelado avanzado de amenazas usando GPT-4, Claude y Gemini para evaluación integral\n                        Advanced threat modeling using GPT-4, Claude, and Gemini for comprehensive assessment\n                    \n                \n                \n                    🛡️\n                    \n                        Protección Automatizada\n                        Automated Protection\n                    \n                    \n                        Guías de remediación instantánea y despliegue de controles protectores\n                        Instant remediation playbooks and protective controls deployment",
+      "tag": "div",
+      "visible": true,
+      "classes": "platform-container",
+      "id": ""
+    },
+    {
+      "text": "La Solución\n                    The Solution\n                \n                \n                    Plataforma de Seguridad Ofensiva IA-Nativa\n                    AI-Native Offensive Security Platform\n                \n                \n                    Tres pilares de protección contra amenazas específicas de IA\n                    Three pillars of protection against AI-specific threats",
+      "tag": "div",
+      "visible": true,
+      "classes": "section-header",
+      "id": ""
+    },
+    {
+      "text": "Tres pilares de protección contra amenazas específicas de IA",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "🔍\n                    \n                        Descubrimiento Continuo\n                        Continuous Discovery\n                    \n                    \n                        Escaneo en tiempo real de todos los modelos IA, endpoints y pipelines de datos para vulnerabilidades\n                        Real-time scanning of all AI models, endpoints, and data pipelines for vulnerabilities\n                    \n                \n                \n                    🧠\n                    \n                        Análisis Potenciado por IA\n                        AI-Powered Analysis\n                    \n                    \n                        Modelado avanzado de amenazas usando GPT-4, Claude y Gemini para evaluación integral\n                        Advanced threat modeling using GPT-4, Claude, and Gemini for comprehensive assessment\n                    \n                \n                \n                    🛡️\n                    \n                        Protección Automatizada\n                        Automated Protection\n                    \n                    \n                        Guías de remediación instantánea y despliegue de controles protectores\n                        Instant remediation playbooks and protective controls deployment",
+      "tag": "div",
+      "visible": true,
+      "classes": "pillars-grid",
+      "id": ""
+    },
+    {
+      "text": "🔍\n                    \n                        Descubrimiento Continuo\n                        Continuous Discovery\n                    \n                    \n                        Escaneo en tiempo real de todos los modelos IA, endpoints y pipelines de datos para vulnerabilidades\n                        Real-time scanning of all AI models, endpoints, and data pipelines for vulnerabilities",
+      "tag": "div",
+      "visible": true,
+      "classes": "pillar-card",
+      "id": ""
+    },
+    {
+      "text": "Descubrimiento Continuo\n                        Continuous Discovery",
+      "tag": "div",
+      "visible": true,
+      "classes": "pillar-title bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Descubrimiento Continuo",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Escaneo en tiempo real de todos los modelos IA, endpoints y pipelines de datos para vulnerabilidades\n                        Real-time scanning of all AI models, endpoints, and data pipelines for vulnerabilities",
+      "tag": "div",
+      "visible": true,
+      "classes": "pillar-description bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Escaneo en tiempo real de todos los modelos IA, endpoints y pipelines de datos para vulnerabilidades",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Real-time scanning of all AI models, endpoints, and data pipelines for vulnerabilities",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "🧠\n                    \n                        Análisis Potenciado por IA\n                        AI-Powered Analysis\n                    \n                    \n                        Modelado avanzado de amenazas usando GPT-4, Claude y Gemini para evaluación integral\n                        Advanced threat modeling using GPT-4, Claude, and Gemini for comprehensive assessment",
+      "tag": "div",
+      "visible": true,
+      "classes": "pillar-card",
+      "id": ""
+    },
+    {
+      "text": "Modelado avanzado de amenazas usando GPT-4, Claude y Gemini para evaluación integral\n                        Advanced threat modeling using GPT-4, Claude, and Gemini for comprehensive assessment",
+      "tag": "div",
+      "visible": true,
+      "classes": "pillar-description bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Advanced threat modeling using GPT-4, Claude, and Gemini for comprehensive assessment",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "🛡️\n                    \n                        Protección Automatizada\n                        Automated Protection\n                    \n                    \n                        Guías de remediación instantánea y despliegue de controles protectores\n                        Instant remediation playbooks and protective controls deployment",
+      "tag": "div",
+      "visible": true,
+      "classes": "pillar-card",
+      "id": ""
+    },
+    {
+      "text": "Guías de remediación instantánea y despliegue de controles protectores\n                        Instant remediation playbooks and protective controls deployment",
+      "tag": "div",
+      "visible": true,
+      "classes": "pillar-description bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Guías de remediación instantánea y despliegue de controles protectores",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Industry-Leading AI Security Innovation\n                \n                    While others adapt traditional security for AI, we built AI-native security from the ground up.\n                \n                \n                \n                    \n                        ✓\n                        First platform with OWASP LLM Top 10 certification\n                    \n                    \n                        ✓\n                        Browser automation for dynamic vulnerability validation\n                    \n                    \n                        ✓\n                        Visual evidence generation with attack demonstrations\n                    \n                    \n                        ✓\n                        EU AI Act 2026 compliance-ready assessments\n                    \n                    \n                        ✓\n                        Multi-model security testing (GPT, Claude, Gemini, Llama)\n                    \n                \n            \n            \n            \n                Platform Performance Metrics\n                \n                    Detection Accuracy\n                    94.7%\n                \n                \n                    False Positive Rate\n                    < 2%\n                \n                \n                    Time to Detection\n                    167ms\n                \n                \n                    Models Supported\n                    15+\n                \n                \n                    Daily Scans\n                    1,456",
+      "tag": "div",
+      "visible": true,
+      "classes": "authority-grid",
+      "id": ""
+    },
+    {
+      "text": "Industry-Leading AI Security Innovation\n                \n                    While others adapt traditional security for AI, we built AI-native security from the ground up.\n                \n                \n                \n                    \n                        ✓\n                        First platform with OWASP LLM Top 10 certification\n                    \n                    \n                        ✓\n                        Browser automation for dynamic vulnerability validation\n                    \n                    \n                        ✓\n                        Visual evidence generation with attack demonstrations\n                    \n                    \n                        ✓\n                        EU AI Act 2026 compliance-ready assessments\n                    \n                    \n                        ✓\n                        Multi-model security testing (GPT, Claude, Gemini, Llama)",
+      "tag": "div",
+      "visible": true,
+      "classes": "authority-content",
+      "id": ""
+    },
+    {
+      "text": "Precios Transparentes\n                Transparent Pricing\n            \n            \n                Comience a Proteger su IA Hoy\n                Start Protecting Your AI Today\n            \n            \n                Elija el plan que se adapte a sus necesidades de seguridad IA\n                Choose the plan that fits your AI security needs",
+      "tag": "div",
+      "visible": true,
+      "classes": "section-header",
+      "id": ""
+    },
+    {
+      "text": "Precios Transparentes\n                Transparent Pricing",
+      "tag": "div",
+      "visible": true,
+      "classes": "section-badge bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Precios Transparentes",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Elija el plan que se adapte a sus necesidades de seguridad IA",
+      "tag": "span",
+      "visible": true,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Starter\n                $500\n                per assessment\n                \n                    Basic AI vulnerability scan\n                    OWASP LLM Top 5 coverage\n                    Executive summary report\n                    48-hour turnaround\n                    Email support\n                \n                Start Free Trial\n            \n            \n            \n                Most Popular\n                Professional\n                $1,500\n                per month\n                \n                    Continuous AI monitoring\n                    Full OWASP LLM Top 10\n                    Browser automation testing\n                    Visual evidence reports\n                    Real-time alerts\n                    Priority support\n                \n                Start Free Trial\n            \n            \n            \n                Enterprise\n                Custom\n                tailored solution\n                \n                    Unlimited AI assessments\n                    Custom compliance mapping\n                    Dedicated security team\n                    API integration\n                    Executive dashboards\n                    24/7 phone support\n                \n                Contact Sales",
+      "tag": "div",
+      "visible": true,
+      "classes": "pricing-grid",
+      "id": ""
+    },
+    {
+      "text": "Starter\n                $500\n                per assessment\n                \n                    Basic AI vulnerability scan\n                    OWASP LLM Top 5 coverage\n                    Executive summary report\n                    48-hour turnaround\n                    Email support\n                \n                Start Free Trial",
+      "tag": "div",
+      "visible": true,
+      "classes": "pricing-card",
+      "id": ""
+    },
+    {
+      "text": "per assessment",
+      "tag": "div",
+      "visible": true,
+      "classes": "pricing-period",
+      "id": ""
+    },
+    {
+      "text": "Most Popular\n                Professional\n                $1,500\n                per month\n                \n                    Continuous AI monitoring\n                    Full OWASP LLM Top 10\n                    Browser automation testing\n                    Visual evidence reports\n                    Real-time alerts\n                    Priority support\n                \n                Start Free Trial",
+      "tag": "div",
+      "visible": true,
+      "classes": "pricing-card featured",
+      "id": ""
+    },
+    {
+      "text": "Professional",
+      "tag": "div",
+      "visible": true,
+      "classes": "pricing-tier",
+      "id": ""
+    },
+    {
+      "text": "Enterprise\n                Custom\n                tailored solution\n                \n                    Unlimited AI assessments\n                    Custom compliance mapping\n                    Dedicated security team\n                    API integration\n                    Executive dashboards\n                    24/7 phone support\n                \n                Contact Sales",
+      "tag": "div",
+      "visible": true,
+      "classes": "pricing-card",
+      "id": ""
+    },
+    {
+      "text": "Contact Sales",
+      "tag": "a",
+      "visible": true,
+      "classes": "pricing-cta",
+      "id": ""
+    },
+    {
+      "text": "Inicie su Evaluación IA Gratuita\n                Start Your Free AI Pentest\n            \n            \n                Ingrese su dominio para obtener una evaluación de seguridad instantánea potenciada por IA\n                Enter your domain to get an instant security assessment powered by AI\n            \n            \n            \n                \n                \n                \n                    \n                         \n                        \n                            Escaneo Rápido (30 segundos)\n                            Quick Scan (30 seconds)\n                        \n                    \n                    \n                         \n                        \n                            Escaneo Integral (2 minutos)\n                            Comprehensive Scan (2 minutes)\n                        \n                    \n                \n                \n                \n                    Iniciar Escaneo\n                    Start Scanning\n                \n            \n            \n            \n                \n                    Resultados del Escaneo\n                    Scan Results\n                \n                \n            \n            \n            \n                Cerrar\n                Close",
+      "tag": "div",
+      "visible": false,
+      "classes": "",
+      "id": "scanModal"
+    },
+    {
+      "text": "Inicie su Evaluación IA Gratuita\n                Start Your Free AI Pentest\n            \n            \n                Ingrese su dominio para obtener una evaluación de seguridad instantánea potenciada por IA\n                Enter your domain to get an instant security assessment powered by AI\n            \n            \n            \n                \n                \n                \n                    \n                         \n                        \n                            Escaneo Rápido (30 segundos)\n                            Quick Scan (30 seconds)\n                        \n                    \n                    \n                         \n                        \n                            Escaneo Integral (2 minutos)\n                            Comprehensive Scan (2 minutes)\n                        \n                    \n                \n                \n                \n                    Iniciar Escaneo\n                    Start Scanning\n                \n            \n            \n            \n                \n                    Resultados del Escaneo\n                    Scan Results\n                \n                \n            \n            \n            \n                Cerrar\n                Close",
+      "tag": "div",
+      "visible": false,
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "Start Your Free AI Pentest",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "Ingrese su dominio para obtener una evaluación de seguridad instantánea potenciada por IA",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Enter your domain to get an instant security assessment powered by AI",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "Escaneo Rápido (30 segundos)\n                            Quick Scan (30 seconds)\n                        \n                    \n                    \n                         \n                        \n                            Escaneo Integral (2 minutos)\n                            Comprehensive Scan (2 minutes)",
+      "tag": "div",
+      "visible": false,
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "Escaneo Rápido (30 segundos)\n                            Quick Scan (30 seconds)",
+      "tag": "span",
+      "visible": false,
+      "classes": "bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Escaneo Rápido (30 segundos)",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Escaneo Integral (2 minutos)\n                            Comprehensive Scan (2 minutes)",
+      "tag": "span",
+      "visible": false,
+      "classes": "bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Escaneo Integral (2 minutos)",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Comprehensive Scan (2 minutes)",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "Iniciar Escaneo\n                    Start Scanning",
+      "tag": "button",
+      "visible": false,
+      "classes": "bilingual-text",
+      "id": ""
+    },
+    {
+      "text": "Iniciar Escaneo",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Resultados del Escaneo\n                    Scan Results",
+      "tag": "div",
+      "visible": false,
+      "classes": "",
+      "id": "scanResults"
+    },
+    {
+      "text": "Resultados del Escaneo",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-es",
+      "id": ""
+    },
+    {
+      "text": "Scan Results",
+      "tag": "span",
+      "visible": false,
+      "classes": "lang-en",
+      "id": ""
+    },
+    {
+      "text": "AI\n                        \n                        Frontera Defender\n                    \n                    \n                        AI-powered penetration testing that finds vulnerabilities 100x faster than traditional methods. Enterprise-grade security testing at 10% of the cost.\n                    \n                    \n                        Ready to secure your infrastructure?\n                        \n                            Start Free Security Scan\n                        \n                    \n                \n                \n                \n                \n                    Solutions\n                    \n                        Penetration Testing\n                        API Security\n                        Cloud Security\n                        AI/ML Security\n                        Compliance\n                    \n                \n                \n                \n                \n                    Company\n                    \n                        About Us\n                        Careers\n                        News & Research\n                        Security Blog\n                        Press\n                        Partners\n                    \n                \n                \n                \n                \n                    Support\n                    \n                        Documentation\n                        API Reference\n                        System Status\n                        Security\n                        Contact Us\n                    \n                \n                \n                \n                \n                    Legal\n                    \n                        Privacy Policy\n                        Terms of Service\n                        SLA\n                        DPA\n                        Cookie Policy\n                    \n                \n            \n            \n            \n            \n                \n                    \n                        © 2025 AI Frontera Defender. All rights reserved.\n                    \n                    \n                        SOC 2 Type II Certified | ISO 27001 Compliant | GDPR Ready\n                    \n                \n                \n                \n                \n                    LinkedIn\n                    Twitter\n                    GitHub\n                    YouTube",
+      "tag": "div",
+      "visible": true,
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "AI\n                        \n                        Frontera Defender\n                    \n                    \n                        AI-powered penetration testing that finds vulnerabilities 100x faster than traditional methods. Enterprise-grade security testing at 10% of the cost.\n                    \n                    \n                        Ready to secure your infrastructure?\n                        \n                            Start Free Security Scan\n                        \n                    \n                \n                \n                \n                \n                    Solutions\n                    \n                        Penetration Testing\n                        API Security\n                        Cloud Security\n                        AI/ML Security\n                        Compliance\n                    \n                \n                \n                \n                \n                    Company\n                    \n                        About Us\n                        Careers\n                        News & Research\n                        Security Blog\n                        Press\n                        Partners\n                    \n                \n                \n                \n                \n                    Support\n                    \n                        Documentation\n                        API Reference\n                        System Status\n                        Security\n                        Contact Us\n                    \n                \n                \n                \n                \n                    Legal\n                    \n                        Privacy Policy\n                        Terms of Service\n                        SLA\n                        DPA\n                        Cookie Policy",
+      "tag": "div",
+      "visible": true,
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "AI\n                        \n                        Frontera Defender\n                    \n                    \n                        AI-powered penetration testing that finds vulnerabilities 100x faster than traditional methods. Enterprise-grade security testing at 10% of the cost.\n                    \n                    \n                        Ready to secure your infrastructure?\n                        \n                            Start Free Security Scan",
+      "tag": "div",
+      "visible": true,
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "Solutions\n                    \n                        Penetration Testing\n                        API Security\n                        Cloud Security\n                        AI/ML Security\n                        Compliance",
+      "tag": "div",
+      "visible": true,
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "Penetration Testing",
+      "tag": "a",
+      "visible": true,
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "Company\n                    \n                        About Us\n                        Careers\n                        News & Research\n                        Security Blog\n                        Press\n                        Partners",
+      "tag": "div",
+      "visible": true,
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "News & Research",
+      "tag": "a",
+      "visible": true,
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "Press",
+      "tag": "a",
+      "visible": true,
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "© 2025 AI Frontera Defender. All rights reserved.\n                    \n                    \n                        SOC 2 Type II Certified | ISO 27001 Compliant | GDPR Ready\n                    \n                \n                \n                \n                \n                    LinkedIn\n                    Twitter\n                    GitHub\n                    YouTube",
+      "tag": "div",
+      "visible": true,
+      "classes": "",
+      "id": ""
+    },
+    {
+      "text": "© 2025 AI Frontera Defender. All rights reserved.\n                    \n                    \n                        SOC 2 Type II Certified | ISO 27001 Compliant | GDPR Ready",
+      "tag": "div",
+      "visible": true,
+      "classes": "",
+      "id": ""
+    }
+  ],
+  "switchedToSpanish": true,
+  "contentAnalysis": {
+    "totalLength": 31947,
+    "spanishWordsFound": 12,
+    "englishWordsFound": 16,
+    "primaryLanguage": "English",
+    "sections": {
+      "Header/Nav": "\n        \n            \n                AI\n                Frontera Defender\n            \n            \n                \n                    \n                        Plataforma\n                        Platform\n                    \n                    \n                        \n                         ",
+      "Main Content": "\n        \n            \n                \n                    \n                    Primera Plataforma de Seguridad IA-Nativa para Maquiladoras\n                    First AI-Native Security Platform for Border Enterprises\n                \n                \n                \n                    Seguridad I",
+      "Footer": "\n        \n            \n            \n                \n                \n                \n                    \n                        \n                            AI\n                        \n                        Frontera Defender\n                    \n                    \n                        AI-"
+    },
+    "fullSample": "\n    \n    \n        \n            \n                \n                \n            \n        \n    \n    \n    \n        \n            \n                ai\n                frontera defender\n            \n            \n                \n                    \n                        plataforma\n                        platform\n                    \n                    \n                        \n                            \n                            \n                                security dashboard\n             "
+  },
+  "recommendations": [
+    "Implement Spanish translations for the main content"
+  ]
+}

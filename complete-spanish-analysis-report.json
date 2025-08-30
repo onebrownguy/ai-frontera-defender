@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-08-30T22:01:52.359Z",
+  "url": "https://aifronteradefender.com",
+  "initialAnalysis": {
+    "pageTitle": "AI Frontera Defender | Seguridad AI Sin Fronteras para Maquiladoras",
+    "hasSpanishContent": true,
+    "hasEnglishContent": true,
+    "currentLanguageButtonState": {
+      "esButton": true,
+      "enButton": false
+    }
+  },
+  "sectionAnalysis": [
+    {
+      "sectionName": "Hero Section",
+      "visibleTextSample": "AI Frontera Defender | Seguridad AI Sin Fronteras para Maquiladoras AI\n                Frontera Defender Plataforma\n                        Platform Security Dashboard\n                                Real-time vulnerability monitoring and threat intelligence Security Dashboard\n                      ...",
+      "spanishWordsFound": 19,
+      "englishWordsFound": 25,
+      "primaryLanguage": "English",
+      "scrollPosition": 0
+    },
+    {
+      "sectionName": "Trust Indicators",
+      "visibleTextSample": "AI Frontera Defender | Seguridad AI Sin Fronteras para Maquiladoras AI\n                Frontera Defender Plataforma\n                        Platform Security Dashboard\n                                Real-time vulnerability monitoring and threat intelligence Security Dashboard\n                      ...",
+      "spanishWordsFound": 14,
+      "englishWordsFound": 25,
+      "primaryLanguage": "English",
+      "scrollPosition": 800
+    },
+    {
+      "sectionName": "Threat Landscape",
+      "visibleTextSample": "AI Frontera Defender | Seguridad AI Sin Fronteras para Maquiladoras AI\n                Frontera Defender Plataforma\n                        Platform Security Dashboard\n                                Real-time vulnerability monitoring and threat intelligence Security Dashboard\n                      ...",
+      "spanishWordsFound": 15,
+      "englishWordsFound": 25,
+      "primaryLanguage": "English",
+      "scrollPosition": 1600
+    },
+    {
+      "sectionName": "Platform Features",
+      "visibleTextSample": "AI Frontera Defender | Seguridad AI Sin Fronteras para Maquiladoras AI\n                Frontera Defender Plataforma\n                        Platform Security Dashboard\n                                Real-time vulnerability monitoring and threat intelligence Security Dashboard\n                      ...",
+      "spanishWordsFound": 12,
+      "englishWordsFound": 25,
+      "primaryLanguage": "English",
+      "scrollPosition": 2400
+    },
+    {
+      "sectionName": "Metrics/Authority",
+      "visibleTextSample": "AI Frontera Defender | Seguridad AI Sin Fronteras para Maquiladoras AI\n                Frontera Defender Plataforma\n                        Platform Security Dashboard\n                                Real-time vulnerability monitoring and threat intelligence Security Dashboard\n                      ...",
+      "spanishWordsFound": 10,
+      "englishWordsFound": 27,
+      "primaryLanguage": "English",
+      "scrollPosition": 3200
+    },
+    {
+      "sectionName": "Pricing Section",
+      "visibleTextSample": "AI Frontera Defender | Seguridad AI Sin Fronteras para Maquiladoras AI\n                Frontera Defender Plataforma\n                        Platform Security Dashboard\n                                Real-time vulnerability monitoring and threat intelligence Security Dashboard\n                      ...",
+      "spanishWordsFound": 9,
+      "englishWordsFound": 26,
+      "primaryLanguage": "English",
+      "scrollPosition": 4000
+    },
+    {
+      "sectionName": "Footer",
+      "visibleTextSample": "AI Frontera Defender | Seguridad AI Sin Fronteras para Maquiladoras AI\n                Frontera Defender Plataforma\n                        Platform Security Dashboard\n                                Real-time vulnerability monitoring and threat intelligence Security Dashboard\n                      ...",
+      "spanishWordsFound": 9,
+      "englishWordsFound": 26,
+      "primaryLanguage": "English",
+      "scrollPosition": 5000
+    }
+  ],
+  "summary": {
+    "totalSections": 7,
+    "spanishSections": 0,
+    "englishSections": 7,
+    "mixedSections": 0,
+    "spanishPercentage": 0,
+    "englishPercentage": 100
+  },
+  "findings": [
+    "✅ Site defaults to Spanish (ES button active)",
+    "✅ Page title is properly localized in Spanish"
+  ],
+  "recommendations": [
+    "🔧 Consider translating remaining English-only sections"
+  ]
+}
